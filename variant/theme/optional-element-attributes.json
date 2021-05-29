@@ -1,0 +1,73 @@
+{ 
+	"options":[
+		{
+			"buttonText":"Edit Placeholder",
+			"modalTitle":"Edit Placeholder",
+			"modalIntro":"Edit the placeholder text for this input. Placeholder text appears before the user has started typing.",
+			"modalInputLabel":"Placeholder Text:",
+			"selector":"input[type='text']",
+			"attribute":"placeholder",
+			"modalInputIcon":"text"
+		},
+		{
+			"buttonText":"Edit Value",
+			"modalTitle":"Edit Input Value",
+			"modalIntro":"Edit the value for this input. The value is the text that appears on the submit button.",
+			"modalInputLabel":"Button Text:",
+			"selector":"input[type='submit']",
+			"attribute":"value",
+			"modalInputIcon":"text"
+		},
+		{
+			"buttonText":"Edit Feed",
+			"modalTitle":"Edit Instagram Feed",
+			"modalIntro":"Edit the Instagram feed by placing your desired username here.",
+			"modalInputLabel":"Username:",
+			"selector":".instafeed",
+			"attribute":"data-user-name",
+			"modalInputIcon":"instagram",
+			"sectionControl":"true",
+			"refresh":"true"
+		},
+		{
+			"buttonText":"Edit Map Embed",
+			"modalTitle":"Edit Map Embed",
+			"modalIntro":"Copy the iframe embed code from your mapping provider and paste it here.",
+			"modalInputLabel":"Embed Code:",
+			"selector":".map-holder > iframe",
+			"attribute":"no-src",
+			"modalInputIcon":"map-marker",
+			"sectionControl":"true"
+		},
+		{
+			"buttonText":"Edit Newsletter Embed",
+			"modalTitle":"Edit Newsletter Embed",
+			"modalIntro":"Copy the form code from Mailchimp or Campaign Monitor here.  Use the `Classic` form in Mailchimp. Use the standard form in Campaign Monitor.  Leaving this empty will default to email form behaviour (sent through mail.php)",
+			"modalInputLabel":"Form Embed Code:",
+			"selector":"form.form-newsletter iframe.mail-list-form",
+			"attribute":"srcdoc",
+			"modalInputIcon":"envelope-closed",
+			"sectionControl":"true"
+		},
+		{
+			"buttonText":"Edit Form Success Message",
+			"modalTitle":"Edit Form Success Message",
+			"modalIntro":"Provide a message to appear when the form is submitted successfully.",
+			"modalInputLabel":"Form Success Message:",
+			"selector":"form[data-success]",
+			"attribute":"data-success",
+			"modalInputIcon":"circle-check",
+			"sectionControl":"true"
+		},
+		{
+			"buttonText":"Edit Form Error Message",
+			"modalTitle":"Edit Form Error Message",
+			"modalIntro":"Provide a message to appear when the form validation is rejected.",
+			"modalInputLabel":"Form Error Message:",
+			"selector":"form[data-error]",
+			"attribute":"data-error",
+			"modalInputIcon":"circle-x",
+			"sectionControl":"true"
+		}
+	]
+}

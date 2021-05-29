@@ -1,0 +1,63 @@
+{ 
+	"options":[
+		{	
+			"type":"toggle",
+			"selector":"section",
+			"menu":"utility",
+			"submenu":"Section Controls",
+			"class":"hidden-xs",
+			"text":"Hide On Mobile",
+			"initial":"auto",
+			"icon":"phone"
+		},
+		{	
+			"type":"toggle",
+			"selector":".toggle-bg-mrv",
+			"menu":"utility",
+			"submenu":"Section Controls",
+			"class":"bg-dark",
+			"text":"Dark Skin",
+			"initial":"auto",
+			"icon":"contrast"
+		},
+		{	
+			"type":"toggle",
+			"selector":".image-bg",
+			"menu":"utility",
+			"submenu":"Section Controls",
+			"class":"parallax",
+			"text":"Parallax",
+			"initial":"auto",
+			"icon":"data-transfer-upload"
+		},
+		{	
+			"type":"toggle",
+			"disposableSelector":".text-section-mrv",
+			"menu":"utility",
+			"submenu":"Section Controls",
+			"class":"pt0",
+			"text":"Top Spacing",
+			"initial":"auto",
+			"icon":"vertical-align-top"
+		},
+		{	
+			"type":"toggle",
+			"disposableSelector":".text-section-mrv",
+			"menu":"utility",
+			"submenu":"Section Controls",
+			"class":"pb0",
+			"text":"Bottom Spacing",
+			"initial":"auto",
+			"icon":"vertical-align-bottom"
+		},
+		{	
+			"type":"toggle",
+			"selector":"h1,h2,h3,h4,h5,h6",
+			"menu":"context",
+			"class":"uppercase",
+			"text":"Uppercase",
+			"initial":"auto",
+			"icon":"text"
+		}
+	]
+}

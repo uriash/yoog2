@@ -1,0 +1,14 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+ 
+ .nav-bar {
+  height: 140px;
+  max-height: 140px;
+  line-height: 140px;
+}
+.nav-bar a {
+  display: inline-block;
+  height: 140px;
+}
+.image-xxs {
+  max-height: 80px;
+}

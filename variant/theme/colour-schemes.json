@@ -1,0 +1,37 @@
+{
+	"original":
+	{
+		"name":"Somnus",
+		"pathToOriginal":"mixture/public/less/",
+		"originalFileName":"theme",
+		"colours":["#333334"]
+	},
+	"schemes":
+	[
+		{
+			"name":"Rose",
+			"colours":["#b35d5d"]
+		},
+		{
+			"name":"NotPink",
+			"colours":["#b35d98"]
+		},
+		{
+			"name":"Emerald",
+			"colours":["#5db37f"]
+		},
+		{
+			"name":"Fabric",
+			"colours":["#5d75b3"]
+		},
+		{
+			"name":"Olive",
+			"colours":["#acb35d"]
+		},
+		{
+			"name":"Tan",
+			"colours":["#b3795d"]
+		}
+		
+	]
+}
