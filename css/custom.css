@@ -12,3 +12,17 @@
 .image-xxs {
   max-height: 80px;
 }
+
+p {
+  direction: rtl;
+}
+
+.pb64 {
+  margin-bottom: 24px !important;
+}
+.pt64 {
+  margin-top: 24px !important;
+}
+.mb64 {
+  margin-top: 24px;
+}
